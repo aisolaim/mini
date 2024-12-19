@@ -94,7 +94,7 @@
     <!-- 첫 화면 -->
     <div class="game-container" id="initial-screen">
         <h1>흰둥이와 놀아볼까요?</h1>
-        <img src=./images/siro.png alt="흰둥이 이미지">
+        <img src=가위바위보/images/siro.png alt="흰둥이 이미지">
         <button onclick="goToNameInputScreen()">흰둥이랑 가위바위보 시작하기</button>
     </div>
 
@@ -177,9 +177,9 @@
         // 이미지 경로 반환 함수
         function getImagePath(choice) {
             switch (choice) {
-                case 'rock': return './images/rock.png';
-                case 'paper': return './images/paper.png';
-                case 'scissors': return './images/scissors.png';
+                case 'rock': return '가위바위보/images/rock.png';
+                case 'paper': return '가위바위보/images/paper.png';
+                case 'scissors': return '가위바위보/images/scissors.png';
                 default: return 'https://via.placeholder.com/100?text=Error';
             }
         }
